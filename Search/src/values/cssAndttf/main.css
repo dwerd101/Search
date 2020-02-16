@@ -1,0 +1,9 @@
+@font-face {
+    src: url("Black-nKam.ttf");
+}
+
+.label {
+    -fx-font-family: "BLACK";
+    -fx-font-size: 18;
+}
+

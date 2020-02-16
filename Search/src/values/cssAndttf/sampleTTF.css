@@ -1,0 +1,8 @@
+@font-face {
+    src: url("MR_ROBOT.ttf");
+}
+
+.label {
+    -fx-font-family: "MrRobot";
+    -fx-font-size: 46;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="315.0" prefWidth="568.0" style="-fx-background-color: #3a3a3a;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="open" alignment="CENTER" layoutX="129.0" layoutY="231.0" mnemonicParsing="false" onAction="#OnClickOpen" prefHeight="41.0" prefWidth="104.0" stylesheets="@test.css" text="Open" AnchorPane.leftAnchor="129.0" AnchorPane.rightAnchor="335.0">
+         <effect>
+            <Reflection topOpacity="0.22" />
+         </effect>
+         <font>
+            <Font size="10.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></Button>
+      <Button fx:id="close" alignment="CENTER" layoutX="339.0" layoutY="231.0" mnemonicParsing="false" onAction="#onClickClose" prefHeight="41.0" prefWidth="104.0" stylesheets="@test.css" text="Close" AnchorPane.leftAnchor="339.0" AnchorPane.rightAnchor="125.0">
+         <effect>
+            <Reflection topOpacity="0.22" />
+         </effect></Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="63.0" prefHeight="129.0" prefWidth="568.0" text="Hello, Friend" textFill="#da0f0f">
+         <font>
+            <Font name="MrRobot" size="50.0" />
+         </font></Label>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>
